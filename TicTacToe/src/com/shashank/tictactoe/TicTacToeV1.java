@@ -150,7 +150,7 @@ public class TicTacToeV1 implements ActionListener {
 			} else {
 				button5.setText("O");
 				gState.setX_turn(true);
-				pl[1][1] = new PlayerType("1");
+				pl[1][1] = new PlayerType("O");
 			}
 			gState.setPl(pl);
 
@@ -188,7 +188,7 @@ public class TicTacToeV1 implements ActionListener {
 			} else {
 				button8.setText("O");
 				gState.setX_turn(true);
-				pl[2][1] = new PlayerType("X");
+				pl[2][1] = new PlayerType("O");
 			}
 			gState.setPl(pl);
 		} else if (a.getSource() == button9) {
@@ -200,7 +200,7 @@ public class TicTacToeV1 implements ActionListener {
 			} else {
 				button9.setText("O");
 				gState.setX_turn(true);
-				pl[2][2] = new PlayerType("X");
+				pl[2][2] = new PlayerType("O");
 			}
 			gState.setPl(pl);
 
