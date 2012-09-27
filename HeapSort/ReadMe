@@ -1,0 +1,5 @@
+This is a small implementation of Heap Sort.
+The new things I learned from this are
+1) Concepts of Heap.
+2) Swapping two values without temporary storage.
+3) Using bit shifting for multiplying and dividing by factors of two.
